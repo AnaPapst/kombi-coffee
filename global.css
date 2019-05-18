@@ -1,0 +1,100 @@
+body {
+    margin: 1px;
+    padding: 0;
+    font-family: "Roboto", "Oxygen", "sans-serif";
+    background: #ffffff;
+    background-size: 310% 180%;
+    letter-spacing: 2px;
+    color: #441B12;
+    font-size: 1em;
+}
+
+#container {
+    width: 960px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+/* MAIN NAV */
+
+.kombi-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 7em;
+}
+
+ul {
+    text-transform: uppercase;
+    text-decoration: none; 
+    background-color: #441B12;
+    display: flex;
+    justify-content: center; 
+    padding: 2% 0 2% 0;
+}
+
+li {
+    padding-right: 7%; 
+    font-weight: 500;
+}
+
+:root {
+    --mainColor: #ffffff;
+}
+  
+a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-size .8s;
+}
+  
+a:hover {
+background-size: 2em 2em;
+color: #441B12;
+}
+
+/* TITLE */
+
+header h1 {
+    display:none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+main h1:first-child {
+    font-size: 4em;
+    font-weight: 400;
+    padding: .3em .3em;
+}
+
+.description,
+.description p {
+    padding: .6% 0 .6% 0;
+}
+
+/* PHOTO */
+
+.coffee-photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 1em 0 2em 1em ;
+    border-top: 1px solid #441B12;
+}

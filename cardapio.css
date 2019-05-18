@@ -1,0 +1,39 @@
+/* BODY */
+
+h1 {
+    padding-top: 1.5em;
+}
+
+h2 {
+    margin: 3%;
+    font-size: 1.3em;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 2% 2%;
+}
+
+/* TABLE */
+
+table {
+    margin:3%;
+}
+
+td {
+    vertical-align: top;
+    text-align: justify;
+    padding: 2%;
+}
+
+.table-menu img {
+    width: 90%;
+    border-radius: 6px;
+}
+
+.menu-bottom-description {
+    color: #ffffff;
+    background: #441B12;
+    text-align: center;
+    font-weight: 600;
+}
+

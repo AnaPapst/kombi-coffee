@@ -1,0 +1,24 @@
+/* BODY */
+
+.description {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.description p {
+    font-size: .8em;
+    padding-top: 2em;
+}
+
+.choose-coffee,
+.where-find {
+    padding: 10px;
+}
+
+.grid-coffee,
+.grid-where {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+
