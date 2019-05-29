@@ -1,5 +1,8 @@
 #gmap_canvas {
-    width: 100%;
+	width: 100%;
+	padding-bottom: 1.5em;
+	width: 550px;
+	height: 500px;
 }
 
 /*  SECTIONS  */
@@ -15,13 +18,15 @@
     grid-template-columns: 60% 40%;
 }
 
-.teste2 {
-	padding-top:10px;
-}
-
 /*  COLUMN SETUP  */
 .col {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+	padding-top:10px;
+}
+
+.col img {
+	margin-left: 8em;
+	padding-top: 1em;
 }

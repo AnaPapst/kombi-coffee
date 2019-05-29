@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="no-js" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,20 +12,22 @@
     <link rel="stylesheet" href="https://lms.infnet.edu.br/moodle/pluginfile.php/404309/mod_page/content/8/reset%20%281%29.css"> <!--Reset-->
     <link rel="stylesheet" type="text/css" href="global.css"> <!--CSS com setagens de NAV e itens existentes em todas as páginas para melhor organização-->
     <link rel="stylesheet" type="text/css" href="contato.css">
+    <script src="modernizr-custom.js"></script>
     <title>Contato Kombi Caffee</title>
 </head>
 <body>
     <div id="container">
         <header>
+            <h1>Kombi Coffee</h1>
             <a href="index.html"><img class="kombi-logo" src="img/kombi.png" title="Coffe Company Logo" alt="Kombi Coffee"></a>
         </header>
         <nav class="nav-list">
             <ul>
-                <li>Home |</li>
-                <li><a href="local.html">Local </a></li>  
-                <li><a href="cardapio.html">Cardápio </a></li>  
-                <li><a href="eventos.html">Eventos </a></li>
-                <li><a href="contato.html">Contato </a></li>    
+                <li><a href="index.html" title="Home Kombi Coffee">Home </a></li>
+                <li><a href="local.html" title="Local Kombi Coffee">Local </a></li>  
+                <li><a href="cardapio.html" title="Cardápio Kombi Coffee">Cardápio </a></li>  
+                <li><a href="eventos.html" title="Eventos Kombi Coffee">Eventos </a></li>
+                <li><a href="contato.html" title="Contato Kombi Coffee">Contato </a></li>    
             </ul>
         </nav>
         <main>   
@@ -33,15 +35,16 @@
             <img class="coffee-contact-photo" src="img/coffe_contact.jpg" title="Kombi coffee contact" alt="cup of coffe">
                 <section id="contact">
                     <div class="container">
+                        <h2>Kombi Coffee Form</h2>
                         <form action="#">
                         <label>First Name</label>
-                        <input type="text" placeholder="Your name..">
+                        <input type="text" placeholder="Your name.." required>
                     
                         <label>Last Name</label>
                         <input type="text" placeholder="Your last name..">
 
                         <label>E-mail</label>
-                        <input type="e-mail" placeholder="Your e-mail">
+                        <input type="email" placeholder="Your e-mail" required>
                     
                         <label>Subject</label>
                         <textarea placeholder="Write something.." style="height:200px"></textarea>

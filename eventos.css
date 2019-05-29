@@ -1,0 +1,95 @@
+
+/*  SECTIONS  */
+h1 {
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid #441B12;
+    font-size: 2em;
+}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.event-container {
+    border-top: 1px solid #441B12;
+    margin-top: 2em;
+    display: grid;
+    grid-gap: 0px 20px;
+    grid-template-columns: 100%;
+}
+
+.grid-event-happening {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 50%;
+    padding-top: 2em;
+}
+
+.grid-event-happening.right {
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-template-rows: 50%;
+}
+
+.grid-event-happening h2,
+.grid-event-happening p {
+    padding-top: .05em;
+}
+
+.grid-event-happening.right.cone h2 {
+    padding-top: 3em;
+}
+
+h1,
+.event-happenning h2,
+.event-happenning h3 {
+    text-align: center;
+} 
+
+.event-happenning p {
+    text-align: center;
+    padding: .10em 2em 0 2em;
+    float: right;
+    width: 80%;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;	
+    float:left;
+    padding-top:5px;
+    padding-top: 1em;
+}
+
+/* PHOTOS */
+
+.grid-event-happening img,
+.grid-event-happening.right img {
+    width: 120%;
+    border-radius: 15px;
+}
+
+.meeting-photo {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 1em;
+}
+
+.meeting-description {
+    padding: 1em 2em 2em 2em;
+    text-align: center;
+}
+
+.coffe-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-happening img {
+    width: 150px;
+    border-radius: 15px;
+}

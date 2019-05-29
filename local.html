@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="no-js" lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://lms.infnet.edu.br/moodle/pluginfile.php/404309/mod_page/content/8/reset%20%281%29.css"> <!--Reset-->
     <link rel="stylesheet" type="text/css" href="global.css"> <!--CSS com setagens de NAV e itens existentes em todas as páginas para melhor organização-->
     <link rel="stylesheet" type="text/css" href="local.css">
+    <script src="modernizr-custom.js"></script>
     <title>Kombi Coffee</title>
 </head>
 <body>
@@ -22,18 +23,19 @@
         </header>
         <nav class="nav-list">
             <ul>
-                <li>Home |</li>
-                <li><a href="local.html">Local </a></li>  
-                <li><a href="cardapio.html">Cardápio </a></li>  
-                <li><a href="eventos.html">Eventos </a></li>
-                <li><a href="contato.html">Contato </a></li>    
+                <li><a href="index.html" title="Home Kombi Coffee">Home </a></li>
+                <li><a href="local.html" title="Local Kombi Coffee">Local </a></li>  
+                <li><a href="cardapio.html" title="Cardápio Kombi Coffee">Cardápio </a></li>  
+                <li><a href="eventos.html" title="Eventos Kombi Coffee">Eventos </a></li>
+                <li><a href="contato.html" title="Contato Kombi Coffee">Contato </a></li>    
             </ul>
         </nav>
         <div class="map-container">
-            <div class="col teste1">
+            <div class="col">
                 <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=R.%20do%20Ros%C3%A1rio%2C%20128%20-%20Centro%20rio%20de%20janeiro&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
-            <div class="col teste2">
+            <div class="col">
+                <img src="https://img.icons8.com/ios/50/000000/marker.png" alt="icon location kombi" title="icon location kombi">
                 <p>Rua do Rosário, 128 - Centro Rio de Janeiro</p>
             </div>
         </div>
@@ -41,6 +43,5 @@
             <p>Copyright</p>
         </footer>
     </div>
-
 </body>
 </html>
